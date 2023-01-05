@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18a3c14a-59f6-4b8a-ba89-d1c5653470b0" name="Changes" comment="studying control structures">
+      <change afterPath="$PROJECT_DIR$/src/com/company/conceptos/Bucles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/conceptos/IfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/conceptos/IfElse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
