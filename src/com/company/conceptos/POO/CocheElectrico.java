@@ -8,6 +8,8 @@ public class CocheElectrico extends ClaseCoche {
         this. motorElectrico = motorElectrico;
     }
 
+    public CocheElectrico() {}
+
     public CocheElectrico(String motorElectrico) {
         super();
         this.motorElectrico = motorElectrico;

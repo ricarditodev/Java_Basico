@@ -1,6 +1,6 @@
 package com.company.conceptos.POO;
 
-public class ClaseCoche {
+abstract public class ClaseCoche {
     //propiedades
     String color;
     String fabricante;
