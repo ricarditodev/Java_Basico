@@ -1,4 +1,4 @@
-package com.company.conceptos;
+package com.company.conceptos.POO;
 
 public class ClaseCoche {
     //propiedades
@@ -13,6 +13,11 @@ public class ClaseCoche {
         this.fabricante = fabricante;
         this.modelo = modelo;
     }
+
+    public ClaseCoche() {
+
+    }
+
 
     //metodos
     public void acelerar(Integer cantidad) {
