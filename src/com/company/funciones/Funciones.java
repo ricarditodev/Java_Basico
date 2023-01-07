@@ -27,6 +27,11 @@ public class Funciones {
          System.out.println(suma(15));
     }
 
+    /**
+     * funcion con tipo de retorno y con parametros
+     * @param number
+     * @return
+     */
     static int suma(int number){
         return number + 1;
     }
