@@ -1,15 +1,15 @@
 package com.company.poo.clases;
 
-public class Vehiculo {
+public abstract class Vehiculo {
     //1. propiedades
-    String marca;
-    String modelo;
-    int velocidadMaxima;
-    double velocidadActual;
-    int year;
-    String color;
-    boolean sport;
-    Motor motor;
+    protected String marca;
+    protected String modelo;
+    protected int velocidadMaxima;
+    protected double velocidadActual;
+    protected int year;
+    protected String color;
+    protected boolean sport;
+    protected Motor motor;
 
     //2. constructores --> se encarga de inicializar los objetos - con las propiedades especificadas en su clase
     public Vehiculo() {
@@ -34,5 +34,19 @@ public class Vehiculo {
     //3. metodos(comportamiento)
     public void acelerar(double cantidad) {
         this.velocidadActual += cantidad;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehiculo{" +
+                "marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", velocidadMaxima=" + velocidadMaxima +
+                ", velocidadActual=" + velocidadActual +
+                ", year=" + year +
+                ", color='" + color + '\'' +
+                ", sport=" + sport +
+                ", motor=" + motor +
+                '}';
     }
 }
