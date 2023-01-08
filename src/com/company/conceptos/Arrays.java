@@ -6,6 +6,12 @@ public class Arrays {
         int dos = 2;
         int tres = 3;
 
+        String[] games = new String[]{"1:1"};
+
+        for (String key : games) {
+            System.out.println(key);
+        }
+
         int[] numeros = new int[]{uno, dos, tres};
 
         for (int i = 0; i < numeros.length; i++) {
