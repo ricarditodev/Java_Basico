@@ -44,7 +44,7 @@ public class Arrays {
         arrayBi[1][2] = 30;
         arrayBi[1][3] = 40;
 
-        for (int i = 0; i <arrayBi.length ; i++) {
+        for (int i = 0; i < arrayBi.length ; i++) {
             System.out.println("Valor de i " + i);
 
             for (int j = 0; j < arrayBi[i].length; j++) {
